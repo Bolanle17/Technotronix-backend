@@ -12,7 +12,7 @@ const productSchema = Joi.object({
     name: Joi.string().required(),
     img: Joi.string(),
     price: Joi.number().required(),
-    feature: Joi.boolean(),
+    featured: Joi.boolean(),
     topSelling: Joi.boolean()
 })
 
